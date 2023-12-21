@@ -16,9 +16,9 @@ export default defineNuxtConfig({
       Roboto: [300, 500, 700]
     }
   },
-  // gtag: {
-  //   id: 'G-XR9C57QYQ0'
-  // },
+  gtag: {
+    id: 'G-CBP0FFLQY0'
+  },
   eslint: {
     lintOnStart: false
   },
