@@ -8,22 +8,22 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode', '@nuxtjs/eslint-module', '@nuxtjs/i18n', 'nuxt-gtag', '@nuxtjs/google-fonts'],
   colorMode: {
     classSuffix: '',
-    preference: 'dark',
-    fallback: 'dark'
+    preference: 'light',
+    fallback: 'light'
   },
   googleFonts: {
     families: {
       Roboto: [300, 500, 700]
     }
   },
-  gtag: {
-    id: 'G-XR9C57QYQ0'
-  },
+  // gtag: {
+  //   id: 'G-XR9C57QYQ0'
+  // },
   eslint: {
     lintOnStart: false
   },
   i18n: {
-    baseUrl: 'https://searchemoji.app',
+    baseUrl: 'https://emoji.6mzy.com',
     strategy: 'prefix_except_default',
     defaultLocale: 'en',
     detectBrowserLanguage: {

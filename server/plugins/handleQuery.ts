@@ -1,7 +1,7 @@
 export default defineNitroPlugin(nitroApp => {
   nitroApp.hooks.hook('render:response', (response, { event }) => {
     if (response.headers?.location?.includes('cfcache=')) {
-      const host = 'https://searchemoji.app'
+      const host = 'https://emoji.6mzy.com'
       const url = new URL(response.headers.location, host)
       const params = new URLSearchParams(url.search)
       params.delete('cfcache')

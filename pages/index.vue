@@ -538,7 +538,7 @@ function modalClick (ev: any) {
         />
       </NuxtLink>
     </nav>
-    <a
+    <!-- <a
       href="https://yesicon.app"
       target="_blank"
       class="no-icon hidden md:block ml-6 mt-6 mb-6 card p-4 rounded-2xl opacity-30 hover:opacity-100 transition-all"
@@ -548,7 +548,7 @@ function modalClick (ev: any) {
         <span class="text-xl">👈</span>
       </div>
       <p class="mt-3 text-sm">{{ $t('yesicon') }}</p>
-    </a>
+    </a> -->
   </aside>
   <main class="mx-4 md:ml-[280px] md:mr-6">
     <div class="flex items-center md:justify-between h-11 md:h-[72px]">
